@@ -1,8 +1,16 @@
-<label for="local-stream">Local Video Stream</label>
+<header>
+      <section class="container">
+        <nav role="navigation">
+          <button id="connect">Connect</button>
+        <button id="call">Call</button>
+        <button id="disconnect">Disconnect</button>
+        </nav>
+      </section>
+      
+    </header>
+<%# <label for="local-stream">You</label> %>
+<div class="containerMain">
 <video id="local-stream" autoplay muted></video>
-<label for="remote-stream">Remote Video Stream</label>
+<%# <label for="remote-stream">Remote Video Stream</label> %>
 <video id="remote-stream" autoplay></video>
-
-<button id="connect">Connect</button>
-<button id="call">Call</button>
-<button id="disconnect">Disconnect</button>
+<div>
